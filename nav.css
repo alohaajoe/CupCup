@@ -1,4 +1,6 @@
-
+.navMenu {
+    padding-left: 20px;
+}
 .navMenu a {
     color: #f6f4e6;
     text-decoration: none;

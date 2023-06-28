@@ -3,7 +3,10 @@
 
 header {
     position: fixed;
-    top: 50px;
+    top: 0px;
+    width: 100%;
+    background: linear-gradient(to right, #212121 30%, #fddb3a);
+    padding: 30px;
 }
 
 body {
