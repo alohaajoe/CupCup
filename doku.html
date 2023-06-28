@@ -8,6 +8,23 @@
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="./nav.css">
     <link rel="icon" href="./favicon.ico" type="image/x-icon">
+    <script src="  https://cdn.jsdelivr.net/npm/showdown@2.1.0/dist/showdown.min.js"></script>
+    <script>
+    window.onload = function() {
+      var markdownFile = 'doku.md';
+      var xhr = new XMLHttpRequest();
+      xhr.open('GET', markdownFile, true);
+      xhr.onreadystatechange = function() {
+        if (xhr.readyState === 4 && xhr.status === 200) {
+          var markdownText = xhr.responseText;
+          var converter = new showdown.Converter();
+          var htmlText = converter.makeHtml(markdownText);
+          document.getElementById("content").innerHTML = htmlText;
+        }
+      };
+      xhr.send();
+    };
+  </script>
   </head>
   <body>
     <header>
@@ -20,6 +37,7 @@
     <main>
       <h1>Doku</h1>  
       <p id="text">hier könnte ihre Doku stehen</p>
+      <div id="content"></div>
     </main>
     
   </body>
