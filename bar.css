@@ -1,0 +1,25 @@
+.range {
+    position: relative;
+    background-color: #333;
+    width: 300px;
+    height: 30px;
+    transform: skew(30deg);
+}
+
+.range__label {
+    width: 0;
+    height: 100%;
+    transition: width 0.5s;
+}
+
+.red {
+    background-color: red;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.green {
+    background-color: green;
+}
