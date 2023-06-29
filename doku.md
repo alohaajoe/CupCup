@@ -44,4 +44,4 @@ Ist er in einer Gruppe, versucht er sich gut zu integrieren und würde alles fü
 
 ---
 
-<img src="./pic/Dwarf.jpeg" style="display: block; margin: 0 auto;">
+<img src="./pic/jörg.jpeg" style="display: block; margin: 0 auto;">
