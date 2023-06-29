@@ -43,3 +43,5 @@ Sein selbstbewusstsein ist defnitiv größer als er selbst. Mit ihm sachlich dis
 Ist er in einer Gruppe, versucht er sich gut zu integrieren und würde alles für seine Einheit tun. So hat er es daheim gelernt. Denn daheim war er häufiger mal im Wald mit seinem Volk gegen die Orks kämpfen. Sein Onkel ist Feldherr und lehrte ihm bereits die Basics des Orksschlachtens.
 
 ---
+
+<img src="./pic/Dwarf.jpeg" style="display: block; margin: 0 auto;">

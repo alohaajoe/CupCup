@@ -1,4 +1,4 @@
-const brokerUrl = 'ws://192.168.2.183:8080';
+const brokerUrl = 'ws://192.168.1.54:8080';
 const client = mqtt.connect(brokerUrl);
 
 client.on('connect', function () {
@@ -14,8 +14,8 @@ client.on('message', function (topic, message) {
 });
 
 // Beispielwert für "cupcup" (ersetze dies mit deinem eigenen Wert)
-var cupcup = 15;
-const cupcupMax = 20;
+//var cupcup = 15;
+const cupcupMax = 500;
 
 // Funktion zum Aktualisieren des Balkens
 function updateBar(value) {
