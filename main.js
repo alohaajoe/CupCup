@@ -15,10 +15,11 @@ client.on('message', function (topic, message) {
 
 // Beispielwert für "cupcup" (ersetze dies mit deinem eigenen Wert)
 //var cupcup = 15;
-const cupcupMax = 500;
+const cupcupMax = 400;
 
 // Funktion zum Aktualisieren des Balkens
 function updateBar(value) {
+    value = Math.min(Math.max(parseInt(value), 0), cupcupMax); //constrain the Value to not go over the Limits
     var bar = document.getElementById('rangeLabel');
     var maxWidth = document.getElementById('range').clientWidth;
     var fillWidth = (value / cupcupMax) * maxWidth;
